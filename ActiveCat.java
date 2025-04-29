@@ -45,5 +45,16 @@ public final class ActiveCat {
     public static String eat() {
         return "Я кушаю!";
     }
-    /*****/
+    
+    public static String purr() {
+        return "Я мырлыкаю!";
+    }
+
+    public static String play() {
+        return "Я играю!";
+    }
+
+    public static String hunts() {
+        return "Я охочусь!";
+    }
 }
