@@ -58,10 +58,8 @@ final class Cat {
         SPHINX, BRITAIN, SCOTTISH, VULGARIS, ORIENTAL
     }
 
-    /*********/
-
-    // Ваш код может находится здесь
-    // остальную часть этого файла вы менять не можете
-
-    /*********/
+    @Override
+    public String toString() {
+        return String.format("Cat{name='%s', age='%d', breed='%s', color='%s'}", name, age, breed, color);
+    }
 }
